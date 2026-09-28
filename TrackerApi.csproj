@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>323f4165-db28-42a8-bef8-aa69879eaf49</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+
+    <PackageReference
+      Include="BCrypt.Net-Next"
+      Version="4.0.3" />
+
+    <PackageReference
+      Include="Microsoft.AspNetCore.Authentication.JwtBearer"
+      Version="10.0.11" />
+
+    <PackageReference
+      Include="Microsoft.EntityFrameworkCore"
+      Version="9.0.9" />
+
+    <PackageReference
+      Include="Microsoft.EntityFrameworkCore.Relational"
+      Version="9.0.9" />
+
+    <PackageReference
+      Include="Microsoft.EntityFrameworkCore.Design"
+      Version="9.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+
+    <PackageReference
+      Include="Pomelo.EntityFrameworkCore.MySql"
+      Version="9.0.0" />
+
+  </ItemGroup>
+
+</Project>
