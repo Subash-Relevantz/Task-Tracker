@@ -126,3 +126,4 @@
 /Users/subashr/Task/TrackerApi/obj/Debug/net10.0/TrackerApi.pdb
 /Users/subashr/Task/TrackerApi/obj/Debug/net10.0/TrackerApi.genruntimeconfig.cache
 /Users/subashr/Task/TrackerApi/obj/Debug/net10.0/ref/TrackerApi.dll
+/Users/subashr/Task/TrackerApi/obj/Debug/net10.0/TrackerApi.sourcelink.json

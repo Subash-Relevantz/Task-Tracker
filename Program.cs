@@ -247,7 +247,7 @@ app.MapGet("/", () =>
     {
         application = "TrackerApi",
         status = "Running",
-        message = "Work Tracker API is running."
+        message = "Daily Task Tracker API is running."
     });
 });
 

@@ -94,6 +94,13 @@ public class TimeEntriesController : ControllerBase
     public async Task<IActionResult> Create(
         [FromBody] TimeEntryRequest request)
     {
+        Console.WriteLine(
+    $"IsLeave: {request.IsLeave}"
+);
+
+Console.WriteLine(
+    $"LeaveName: {request.LeaveName}"
+);
         var userId =
             CurrentUserId();
 
