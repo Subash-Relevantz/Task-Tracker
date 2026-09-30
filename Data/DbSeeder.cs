@@ -16,71 +16,85 @@ public static class DbSeeder
         const string temporaryPassword =
             "Tracker@123";
 
-        var users = new[]
-        {
-            new AppUser
-            {
-                Name = "Kumaravel",
-                Email = "kumaravel@tracker.local",
-                Role = "User"
-            },
+var users = new[]
+{
+    new AppUser
+    {
+        Name = "Stalin",
+        Email = "stalin.vaithilingam@relevantz.com",
+        Role = "User"
+    },
 
-            new AppUser
-            {
-                Name = "Enbin",
-                Email = "enbin@tracker.local",
-                Role = "User"
-            },
+    new AppUser
+    {
+        Name = "Varun",
+        Email = "dayananth.varun@relevantz.com",
+        Role = "Manager"
+    },
 
-            new AppUser
-            {
-                Name = "Deepak",
-                Email = "deepak@tracker.local",
-                Role = "User"
-            },
+    new AppUser
+    {
+        Name = "Sathish",
+        Email = "sathish.hariharan@relevantz.com",
+        Role = "User"
+    },
 
-            new AppUser
-            {
-                Name = "Stalin",
-                Email = "stalin@tracker.local",
-                Role = "User"
-            },
+    new AppUser
+    {
+        Name = "Emmanuel",
+        Email = "emmanuel.davidson@relevantz.com",
+        Role = "User"
+    },
 
-            new AppUser
-            {
-                Name = "Amirtha",
-                Email = "amirtha@tracker.local",
-                Role = "User"
-            },
+    new AppUser
+    {
+        Name = "Arunachalam",
+        Email = "arunachalam.sivakumar@relevantz.com",
+        Role = "User"
+    },
 
-            new AppUser
-            {
-                Name = "Emman",
-                Email = "emman@tracker.local",
-                Role = "User"
-            },
+    new AppUser
+    {
+        Name = "Deepak",
+        Email = "deepak.thokhuluva@relevantz.com",
+        Role = "User"
+    },
 
-            new AppUser
-            {
-                Name = "Arunachalam",
-                Email = "arunachalam@tracker.local",
-                Role = "User"
-            },
+    new AppUser
+    {
+        Name = "Enbin",
+        Email = "enbin.susainathan@relevantz.com",
+        Role = "User"
+    },
 
-            new AppUser
-            {
-                Name = "Subash",
-                Email = "subash@tracker.local",
-                Role = "User"
-            },
+    new AppUser
+    {
+        Name = "Amirthavarshini",
+        Email = "amirthavarshini.prasanna@relevantz.com",
+        Role = "User"
+    },
 
-            new AppUser
-            {
-                Name = "Varun",
-                Email = "varun@tracker.local",
-                Role = "Manager"
-            }
-        };
+    new AppUser
+    {
+        Name = "Kumaravel",
+        Email = "kumaravel.thiyagarajan@relevantz.com",
+        Role = "User"
+    },
+
+    new AppUser
+    {
+        Name = "Subash",
+        Email = "subash.rajasekaran@relevantz.com",
+        Role = "User"
+    },
+
+    new AppUser
+    {
+        Name = "Kishore",
+        Email = "kishore.kanthasamy@relevantz.com",
+        Role = "User"
+    }
+};
 
         foreach (var user in users)
         {
