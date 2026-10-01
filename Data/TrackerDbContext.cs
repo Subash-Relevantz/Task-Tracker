@@ -11,9 +11,14 @@ public class TrackerDbContext : DbContext
     {
     }
 
-    public DbSet<AppUser> AppUsers => Set<AppUser>();
+    public DbSet<AppUser> AppUsers =>
+        Set<AppUser>();
 
-    public DbSet<TimeEntry> TimeEntries => Set<TimeEntry>();
+    public DbSet<TimeEntry> TimeEntries =>
+        Set<TimeEntry>();
+
+    public DbSet<Holiday> Holidays =>
+        Set<Holiday>();
 
     protected override void OnModelCreating(
         ModelBuilder modelBuilder)
@@ -40,5 +45,9 @@ public class TrackerDbContext : DbContext
                 x.UserId,
                 x.WorkDate
             });
+
+        modelBuilder.Entity<Holiday>()
+            .HasIndex(x => x.HolidayDate)
+            .IsUnique();
     }
 }
