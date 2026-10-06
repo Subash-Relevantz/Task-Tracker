@@ -130,20 +130,22 @@ builder.Services.AddScoped<TokenService>();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("ReactApp", policy =>
-    {
-        policy
-            .WithOrigins(
-                "http://localhost:5173",
-                "http://localhost:5174",
-                "http://localhost:5175",
-                "http://127.0.0.1:5173",
-                "http://127.0.0.1:5174",
-                "http://127.0.0.1:5175"
-            )
-            .AllowAnyHeader()
-            .AllowAnyMethod();
-    });
+    options.AddPolicy(
+        "ReactApp",
+        policy =>
+        {
+            policy
+                .WithOrigins(
+                    "http://localhost:5173",
+                    "http://localhost:5174",
+                    "http://localhost:5175",
+                    "http://127.0.0.1:5173",
+                    "http://127.0.0.1:5174",
+                    "http://127.0.0.1:5175"
+                )
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        });
 });
 
 
@@ -151,7 +153,11 @@ builder.Services.AddCors(options =>
 // BUILD APP
 // ======================================================
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 var app = builder.Build();
+app.UseSwagger();
+app.UseSwaggerUI();
 
 
 // ======================================================

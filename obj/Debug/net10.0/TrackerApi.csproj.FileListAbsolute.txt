@@ -29,9 +29,13 @@
 /Users/subashr/Task/TrackerApi/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.dll
 /Users/subashr/Task/TrackerApi/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 /Users/subashr/Task/TrackerApi/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.dll
+/Users/subashr/Task/TrackerApi/bin/Debug/net10.0/Microsoft.OpenApi.dll
 /Users/subashr/Task/TrackerApi/bin/Debug/net10.0/Mono.TextTemplating.dll
 /Users/subashr/Task/TrackerApi/bin/Debug/net10.0/MySqlConnector.dll
 /Users/subashr/Task/TrackerApi/bin/Debug/net10.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/subashr/Task/TrackerApi/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/subashr/Task/TrackerApi/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/subashr/Task/TrackerApi/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
 /Users/subashr/Task/TrackerApi/bin/Debug/net10.0/System.CodeDom.dll
 /Users/subashr/Task/TrackerApi/bin/Debug/net10.0/System.Composition.AttributedModel.dll
 /Users/subashr/Task/TrackerApi/bin/Debug/net10.0/System.Composition.Convention.dll
@@ -110,7 +114,9 @@
 /Users/subashr/Task/TrackerApi/obj/Debug/net10.0/TrackerApi.AssemblyInfoInputs.cache
 /Users/subashr/Task/TrackerApi/obj/Debug/net10.0/TrackerApi.AssemblyInfo.cs
 /Users/subashr/Task/TrackerApi/obj/Debug/net10.0/TrackerApi.csproj.CoreCompileInputs.cache
+/Users/subashr/Task/TrackerApi/obj/Debug/net10.0/TrackerApi.MvcApplicationPartsAssemblyInfo.cs
 /Users/subashr/Task/TrackerApi/obj/Debug/net10.0/TrackerApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/subashr/Task/TrackerApi/obj/Debug/net10.0/TrackerApi.sourcelink.json
 /Users/subashr/Task/TrackerApi/obj/Debug/net10.0/rjimswa.dswa.cache.json
 /Users/subashr/Task/TrackerApi/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
 /Users/subashr/Task/TrackerApi/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
@@ -126,4 +132,3 @@
 /Users/subashr/Task/TrackerApi/obj/Debug/net10.0/TrackerApi.pdb
 /Users/subashr/Task/TrackerApi/obj/Debug/net10.0/TrackerApi.genruntimeconfig.cache
 /Users/subashr/Task/TrackerApi/obj/Debug/net10.0/ref/TrackerApi.dll
-/Users/subashr/Task/TrackerApi/obj/Debug/net10.0/TrackerApi.sourcelink.json
