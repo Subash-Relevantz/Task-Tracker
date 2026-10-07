@@ -244,7 +244,7 @@ public class ChatController : ControllerBase
             response =
 @"USER COMMANDS
 
-Today my task is 
+Task
 
 MANAGER COMMANDS
 
